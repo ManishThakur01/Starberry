@@ -1,0 +1,23 @@
+.border-sec {
+    border: 1px solid #E7E9EB;
+    padding: 5px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 35px;
+}
+.dropdown-sec {
+    font-size: 20px;
+   
+}
+.dropdown-sec select {
+    border: none;
+    cursor: pointer;
+}
+@media screen and (max-width:768px) {  
+    .border-sec {
+        display: none;
+    }
+}

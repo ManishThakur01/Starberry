@@ -1,0 +1,14 @@
+.darksection {
+    background: #e7edf2;
+    padding: 17px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #222;
+    text-align: center;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.12);
+}
+.middleTextSec {
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+}

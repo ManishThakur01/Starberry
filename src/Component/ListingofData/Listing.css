@@ -1,0 +1,19 @@
+.hotel-list-container{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 500px));
+    grid-gap: 50px;
+    justify-content: space-around;
+      
+}
+.hotel-list-container .hotelList{
+    text-align: center;
+}
+.hotel-list-container .hotelList img {
+    width: 300px;
+}
+
+@media screen and (max-width:768px) { 
+    .hotel-list-container {
+        grid-template-columns: repeat(1, minmax(300px, 500px));
+    }
+}
