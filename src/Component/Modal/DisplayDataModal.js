@@ -4,7 +4,7 @@ import share from '../../images/share.png';
 import home from '../../images/home.png';
 import './DisplayModal.css';
 
-const closeBtn = "https://www.iciciprulife.com/content/icici-prudential-life-insurance/custAppForm/expBuy_UR/images/close.png";
+const closeBtn = ""//"https://www.iciciprulife.com/content/icici-prudential-life-insurance/custAppForm/expBuy_UR/images/close.png";
 
 
 const DisplayDataModal = (props) => {
